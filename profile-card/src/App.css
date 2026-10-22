@@ -1,0 +1,11 @@
+.app-container {
+  text-align: center; /* จัดข้อความภายในคอนเทนเนอร์ให้อยู่กึ่งกลาง */
+  padding: 32px 16px;
+  font-family: "Segoe UI", sans-serif;/* กำหนดฟอนต์หลักเป็น "Segoe UI" หากไม่มีให้ใช้ฟอนต์แซนเซิร์ฟ (sans-serif) ทั่วไป */
+}
+
+.card-list {
+  display: flex; /* ใช้ Flexbox เพื่อจัดเรียงการ์ดลูกๆ แบบยืดหยุ่น */
+  flex-wrap: wrap; /* อนุญาตให้การ์ดขึ้นบรรทัดใหม่ได้อัตโนมัติหากพื้นที่ไม่พอ */
+  justify-content: center; /* จัดการ์ดทั้งหมดให้อยู่กึ่งกลางในแนวนอน */
+}
